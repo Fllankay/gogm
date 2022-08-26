@@ -119,10 +119,10 @@ func (g *Gogm) init(ctx context.Context) error {
 	}
 
 	g.logger.Debug("initializing indices")
-	err = g.initIndex(ctx)
-	if err != nil {
-		return fmt.Errorf("failed to init indices, %w", err)
-	}
+	//err = g.initIndex(ctx)
+	//if err != nil {
+	//	return fmt.Errorf("failed to init indices, %w", err)
+	//}
 
 	return nil
 }
